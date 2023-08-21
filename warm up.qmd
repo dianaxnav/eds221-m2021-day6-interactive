@@ -1,0 +1,17 @@
+---
+title: "eds221-day5-interactive"
+format: html
+editor: visual
+---
+
+## Warm - Up
+
+```{r}
+animal <- c("brown bear", "red bird", "yellow duck", "blue horse")
+
+for (i in 1:(length(animal) -1)) {
+  print(paste(animal[i], animal[i], "what do you see I see a", animal[i + 1], "looking at me"))
+}
+
+#seq_along can not be interchanged 1:(length)
+```
