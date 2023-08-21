@@ -1,0 +1,13 @@
+---
+title: "eds221-day6-interactive"
+format: html
+editor: visual
+execute:
+  warning: TRUE
+---
+
+```{r}
+library(tidyverse)
+library(here)
+library(janitor)
+```
